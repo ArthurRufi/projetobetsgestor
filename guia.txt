@@ -1,0 +1,29 @@
+Criar um gerenciador de apostas.
+
+Gerenciamento de banca{
+    Quantidade de dinheiro em banca a partir do dia x até o dia y
+    Quantidade de dinheiros colocados em banca por data
+    Quantidade de retornos do mês
+    Quantidade de perdas no mês
+}
+Gerenciamento de Reds e Greens{
+
+    Informativos de Reds do mês
+    Informativos de greens do mês
+    Resumo de greens e reds por liga
+    Resumo de greens e reds por clube
+    
+}
+Gerenciamento de times{
+
+    Informativo de noticias importantes
+    Aviso de evento importante
+    Aviso de possivel reviravolta
+
+}
+
+*extras* 
+BOT de recomendação
+Integração com email
+Notificações
+
