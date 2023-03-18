@@ -1,4 +1,7 @@
 class Clube:
+    
+    listadevitorias = []
+    
     def __init__(self, nome, vitorias, derrotas, desfalques, adversarios):
 
         self._nome = nome
@@ -9,25 +12,34 @@ class Clube:
 
 
     def vitorias(self, vitorias, adversarios):
+        
+        self._vitorias = vitorias
+        self._adversarios =  adversarios
+        
 
-        pass
+        
 
+    def derrotas(self, derrotas, adversarios):
 
-    def derrotas():
-        pass
-
-
-    def avisos():
-        pass
-
-
-    def desfalques():
-        pass
+        self._derrotas = derrotas
+        self._adversarios = adversarios
 
 
-    def alertas():
-        pass
+    def avisos(self, avisos):
+        
+        self._avisos = avisos
+        
+
+    def desfalques(self, desfalques):
+        
+        self._desfalques = desfalques
 
 
-    def estatisticas():
-        pass
+    def alertas(self, alertas):
+        
+        self._alertas = alertas
+
+
+    def estatisticas(self, estatisticas):
+        
+        self.dados = estatisticas
