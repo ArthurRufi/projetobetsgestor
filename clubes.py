@@ -11,12 +11,14 @@ class Clube:
     def nmvitorias(self, vitorias, adversarios):
         self._vitorias = vitorias
         self._lutinhas = adversarios
-
+        
         nv = 0
         for v in vitorias:
             nv += 1 
         
         print (nv)
+        
+        
         
 
 
@@ -25,6 +27,11 @@ class Clube:
         self._derrotas = derrotas
         self._adversarios = adversarios
         
+        nd = 0
+        for d in derrotas:
+            nd += 1 
+        
+        print (nd)
         print(derrotas)
 
 

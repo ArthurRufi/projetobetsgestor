@@ -4,16 +4,46 @@ Classe Clube:
     Essa classe é responsavel pelas informações e estatisticas do clube selecionado.
     
     Funções: 
-        Vitorias:
+        nmvitorias:
             Na função *Vitorias* vai ser retornado os clubes cujo qual o clube selecionado obteve a condição vitoria, também será retornado a porcetagem de vitoria do times
-            tanto contra o time em questão na temporada como no torneio e no estadio.
+            tanto contra o time em questão na temporada.
+        nmderrotas:
+            Na função *derrotas* vai ser retornado os clubes que venceram do clube selecionado, também deve retornar a porcetagem de vitoria do time adversarios tanto contra
+            o time escolhido na temporada atual.
+        nmavisos:
+            Responsavel por criar avisos importantes sempre que realizar ações sobre o clube ex(jogar fora, desfalques, noticias e modificações)
+        nmalertas:
+            Responsavel por gerar alertas e Notificações para o usuario sobre o clube 
+        nmdesfalques:
+            Avisar sobre desfalques do time
+Classe Banca:
+    Classe responsavel por gerenciar toda a banca do cliente.
+
+    Funções:
+        entradas:
+            Entregar relatorio de entradas seja ela depositos ou Greens
+
+        saidas:
+            Entregar relatorio de saidas seja ele por saque ou Reds
+
+        retornos_do_mes:
+            Entregar todos os Greens
+
+        perdas_do_mes:
+            Entregar todos os reds
 
 
 Commits Importantes:
+   
+    !!!AVISO!!!
+    Erro do titulo Commit final d80b96b ("Funcionalidades descritas p1.22" /// p1.22 não existe na data ERRO DE DIGITAÇÃO)
+   
     p1{
         Renomeadas todas as funções, função nmvitorias retornado numero de vitorias
 
         p1.1{
             Descrições adicionadas da p1 da documentação
         }
+        p1.2 {Adicionadas Funcionalidade a todas as funções da classe banca (entradas, saidas, retornos_do_mes, perdas_do_mes) e da classe Clube (nmalertas, nmavisos, nmderrotas
+        nmdesfalques)}
     }
