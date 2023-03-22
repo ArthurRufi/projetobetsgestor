@@ -1,0 +1,11 @@
+sistema Docmentos
+
+Classe Clube:
+    Essa classe é responsavel pelas informações e estatisticas do clube selecionado.
+    
+    Funções: 
+        Vitorias:
+            Na função *Vitorias* vai ser retornado os clubes cujo qual o clube selecionado obteve a condição vitoria, também será retornado a porcetagem de vitoria do times
+            tanto contra o time em questão na temporada como no torneio e no estadio.
+
+            

@@ -2,44 +2,53 @@ class Clube:
     
     listadevitorias = []
     
-    def __init__(self, nome, vitorias, derrotas, desfalques, adversarios):
+    def __init__(self, nome , emblema):
 
         self._nome = nome
+        self._emblema = emblema
+
+
+    def nmvitorias(self, vitorias, adversarios):
         self._vitorias = vitorias
-        self._derrotas = derrotas
-        self._desfalques = desfalques
-        self._adversarios = adversarios
+        self._lutinhas = adversarios
 
-
-    def vitorias(self, vitorias, adversarios):
+        nv = 0
+        for v in vitorias:
+            nv += 1 
         
-        self._vitorias = vitorias
-        self._adversarios =  adversarios
+        print (nv)
         
 
-        
 
-    def derrotas(self, derrotas, adversarios):
+    def nmderrotas(self, derrotas, adversarios):
 
         self._derrotas = derrotas
         self._adversarios = adversarios
+        
+        print(derrotas)
 
 
-    def avisos(self, avisos):
+    def nmavisos(self, avisos):
         
         self._avisos = avisos
-        
+        print (avisos)
 
-    def desfalques(self, desfalques):
+
+    def nmdesfalques(self, desfalques):
         
         self._desfalques = desfalques
+        print (desfalques)
 
 
-    def alertas(self, alertas):
+    def nmalertas(self, alertas):
         
         self._alertas = alertas
+        print (alertas)
 
 
     def estatisticas(self, estatisticas):
+
         
-        self.dados = estatisticas
+        self._dados = estatisticas
+        print(estatisticas)
+    
