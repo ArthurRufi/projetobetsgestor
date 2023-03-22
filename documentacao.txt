@@ -8,4 +8,12 @@ Classe Clube:
             Na função *Vitorias* vai ser retornado os clubes cujo qual o clube selecionado obteve a condição vitoria, também será retornado a porcetagem de vitoria do times
             tanto contra o time em questão na temporada como no torneio e no estadio.
 
-            
+
+Commits Importantes:
+    p1{
+        Renomeadas todas as funções, função nmvitorias retornado numero de vitorias
+
+        p1.1{
+            Descrições adicionadas da p1 da documentação
+        }
+    }
