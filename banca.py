@@ -8,15 +8,18 @@ class Banca():
 
     def entradas(self, entradas):
        
-        extratodeentradas = []
         self._entradas = entradas
+
+        extratodeentradas = []
         extratodeentradas.append(entradas)       
+        print (extratodeentradas)
 
 
     def saidas(self, saidas):
         
-        extratodesaidas = []
         self._saidas = saidas
+        extratodesaidas = []
+        
         extratodesaidas.append(saidas)    
         pass
 

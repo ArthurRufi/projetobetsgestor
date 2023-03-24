@@ -1,36 +1,49 @@
 sistema Docmentos
 
-Classe Clube:
-    Essa classe é responsavel pelas informações e estatisticas do clube selecionado.
-    
-    Funções: 
-        nmvitorias:
-            Na função *Vitorias* vai ser retornado os clubes cujo qual o clube selecionado obteve a condição vitoria, também será retornado a porcetagem de vitoria do times
-            tanto contra o time em questão na temporada.
-        nmderrotas:
-            Na função *derrotas* vai ser retornado os clubes que venceram do clube selecionado, também deve retornar a porcetagem de vitoria do time adversarios tanto contra
-            o time escolhido na temporada atual.
-        nmavisos:
-            Responsavel por criar avisos importantes sempre que realizar ações sobre o clube ex(jogar fora, desfalques, noticias e modificações)
-        nmalertas:
-            Responsavel por gerar alertas e Notificações para o usuario sobre o clube 
-        nmdesfalques:
-            Avisar sobre desfalques do time
-Classe Banca:
-    Classe responsavel por gerenciar toda a banca do cliente.
+Classes:
+    Classe Clube:
+        Essa classe é responsavel pelas informações e estatisticas do clube selecionado.
+        
+        Funções: 
+            nmvitorias:
+                Na função *Vitorias* vai ser retornado os clubes cujo qual o clube selecionado obteve a condição vitoria, também será retornado a porcetagem de vitoria do times
+                tanto contra o time em questão na temporada.
+            nmderrotas:
+                Na função *derrotas* vai ser retornado os clubes que venceram do clube selecionado, também deve retornar a porcetagem de vitoria do time adversarios tanto contra
+                o time escolhido na temporada atual.
+            nmavisos:
+                Responsavel por criar avisos importantes sempre que realizar ações sobre o clube ex(jogar fora, desfalques, noticias e modificações)
+            nmalertas:
+                Responsavel por gerar alertas e Notificações para o usuario sobre o clube 
+            nmdesfalques:
+                Avisar sobre desfalques do time
+    Classe Banca:
+        Classe responsavel por gerenciar toda a banca do cliente.
 
-    Funções:
-        entradas:
-            Entregar relatorio de entradas seja ela depositos ou Greens
+        Funções:
+            entradas:
+                Entregar relatorio de entradas seja ela depositos ou Greens
 
-        saidas:
-            Entregar relatorio de saidas seja ele por saque ou Reds
+            saidas:
+                Entregar relatorio de saidas seja ele por saque ou Reds
 
-        retornos_do_mes:
-            Entregar todos os Greens
+            retornos_do_mes:
+                Entregar todos os Greens
 
-        perdas_do_mes:
-            Entregar todos os reds
+            perdas_do_mes:
+                Entregar todos os reds
+
+                
+
+Modulos: 
+    clubes.py: Contem a classe clube e suas Funcionalidades
+
+    banca.py: Contem a classe banca e suas Funcionalidades
+
+    main.py: Contem o main responsavel por rodar toda a aplicação
+
+    info.py: Responsavel por tratar informações recebidas e preparar ela para repassar aos modulos de classes.
+
 
 
 Commits Importantes:

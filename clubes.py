@@ -8,9 +8,8 @@ class Clube:
         self._emblema = emblema
 
 
-    def nmvitorias(self, vitorias, adversarios):
+    def nmvitorias(self, vitorias):
         self._vitorias = vitorias
-        self._lutinhas = adversarios
         
         nv = 0
         for v in vitorias:
