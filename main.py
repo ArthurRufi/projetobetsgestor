@@ -1,6 +1,6 @@
 from clubes import Clube
 from banca import Banca
-import info
+from info import informações_de_usuario, tratamento_de_entrada
 
 
 
@@ -10,16 +10,19 @@ import info
 
 
 listadevitorias = [5, 4, 3, 2, 1]
-nomedoclube = input("Insira o nome do clube ")
+#nomedoclube = input("Insira o nome do clube ")
 lsitadederrotas = [3, 2, 1]
 listadesfalques = ["pedro", "gabirel"]
 infoadversarios = ["contrataram o batman"]
 
 
 
-clube  = Clube(nomedoclube, "333")
+#clube  = Clube(nomedoclube, "333")
 
-clube.nmvitorias(listadevitorias)
+#clube.nmvitorias(listadevitorias)
+
+nome = informações_de_usuario()
+tratamento_de_entrada(nome)
 
 
 '''

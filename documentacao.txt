@@ -61,5 +61,7 @@ Commits Importantes:
         nmdesfalques)
         
             p1.2.1 {iniciando os trabalhos em cima do modulo info, vai ser responsavel por tratar entradas de dados como credenciais, segurança e dados do sistema.}        
+        
+            p1.3 {Adicionado tratamento de entrada para limpar entrada do usuario}
         }
     }
