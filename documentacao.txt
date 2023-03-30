@@ -62,6 +62,6 @@ Commits Importantes:
         
             p1.2.1 {iniciando os trabalhos em cima do modulo info, vai ser responsavel por tratar entradas de dados como credenciais, segurança e dados do sistema.}        
         
-            p1.3 {Adicionado tratamento de entrada para limpar entrada do usuario}
+            p1.3 {Adicionado tratamento de entrada na info.py com nome tratamento_de_entrada que recebe o nome do usuario ou qualquer entrada que nao deseja receber numeros}
         }
     }
