@@ -58,5 +58,8 @@ Commits Importantes:
             Descrições adicionadas da p1 da documentação
         }
         p1.2 {Adicionadas Funcionalidade a todas as funções da classe banca (entradas, saidas, retornos_do_mes, perdas_do_mes) e da classe Clube (nmalertas, nmavisos, nmderrotas
-        nmdesfalques)}
+        nmdesfalques)
+        
+            p1.2.1 {iniciando os trabalhos em cima do modulo info, vai ser responsavel por tratar entradas de dados como credenciais, segurança e dados do sistema.}        
+        }
     }

@@ -19,7 +19,11 @@ Gerenciamento de times{
     Informativo de noticias importantes
     Aviso de evento importante
     Aviso de possivel reviravolta
-
+    
+    ***CUIDADOS*** {
+        O banco de dados deve ser tomado bastante cuidado com a grande quantidade de clubes
+        LEMBRAR QUE NÃO SÃO SOMENTE CLUBES DE FUTEBOL
+    }
 }
 
 *extras* 
