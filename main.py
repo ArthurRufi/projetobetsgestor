@@ -1,6 +1,6 @@
 from clubes import Clube
 from banca import Banca
-from info import informações_de_usuario, tratamento_de_entrada
+from tratamentodeinformacoe import Informacoes
 
 
 
@@ -16,14 +16,25 @@ listadesfalques = ["pedro", "gabirel"]
 infoadversarios = ["contrataram o batman"]
 
 
+inputnome = input("Insira seu nome ")
+inputsenha = input("Insira sua senha ")
+nome = Informacoes(inputnome, inputsenha)
+permission = nome.tratamento_de_entrada(inputnome)
+if not permission:
+    print("Por favor, insira um nome válido sem números proibidos.")
+else:
+    lista = nome.informações_de_usuario(inputnome, inputsenha)
+    print("Informações de usuário:", lista)
+
+
 
 #clube  = Clube(nomedoclube, "333")
 
 #clube.nmvitorias(listadevitorias)
 
-nome = informações_de_usuario()
+'''nome = informações_de_usuario()
 tratamento_de_entrada(nome)
-
+'''
 
 '''
 if __name__ == "__main__":

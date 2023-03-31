@@ -33,7 +33,16 @@ Classes:
             perdas_do_mes:
                 Entregar todos os reds
 
-                
+    Classe informacoes:     
+            Classe responsavel por tratar informacoes recebidas e lançar as informacoes para o banco de dados.
+
+            Funções:
+                informações_de_usuario:
+                    receber o nome de usuario e joga para a variavel global nomesalvo transformando ela em lista.    
+
+                tratamento_de_entrada:
+                    Faz o tratamento da entrada composto que foi entregue em informações_de_usuario e joga para as variaveis globais da classe informacoes
+                    nomesalvo e senhasalva.
 
 Modulos: 
     clubes.py: Contem a classe clube e suas Funcionalidades
@@ -46,7 +55,7 @@ Modulos:
 
 
 
-Commits Importantes:
+Commits:
    
     !!!AVISO!!!
     Erro do titulo Commit final d80b96b ("Funcionalidades descritas p1.22" /// p1.22 não existe na data ERRO DE DIGITAÇÃO)
@@ -63,5 +72,8 @@ Commits Importantes:
             p1.2.1 {iniciando os trabalhos em cima do modulo info, vai ser responsavel por tratar entradas de dados como credenciais, segurança e dados do sistema.}        
         
             p1.3 {Adicionado tratamento de entrada na info.py com nome tratamento_de_entrada que recebe o nome do usuario ou qualquer entrada que nao deseja receber numeros}
+
+            p1.3.1 {Realizado correções para uso na classe informacoes, nas funções tratamento_de_entrada e informações_de_usuario, Realizado alterações na main para 
+                    usar as Funcionalidades, Renomeado o modulo info.py para tratamentodeinformacoe.py}
         }
     }
