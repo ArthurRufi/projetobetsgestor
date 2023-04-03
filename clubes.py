@@ -2,36 +2,25 @@ class Clube:
     
     listadevitorias = []
     
-    def __init__(self, nome , emblema):
-
+    def __init__(self, nome , emblema, vitorias, derrotas, adversarios):
+    
         self._nome = nome
         self._emblema = emblema
-
-
-    def nmvitorias(self, vitorias):
         self._vitorias = vitorias
-        
-        nv = 0
-        for v in vitorias:
-            nv += 1 
-        
-        print (nv)
-        
-        
-        
-
-
-    def nmderrotas(self, derrotas, adversarios):
-
         self._derrotas = derrotas
-        self._adversarios = adversarios
-        
-        nd = 0
-        for d in derrotas:
-            nd += 1 
-        
-        print (nd)
-        print(derrotas)
+        self._adverarios = adversarios
+
+
+    def nmvitorias(self):
+       
+       vitorias = self._vitorias
+       print (vitorias)
+       
+
+    def nmderrotas(self):
+
+        derrotas = self._derrotas
+        print (derrotas)
 
 
     def nmavisos(self, avisos):

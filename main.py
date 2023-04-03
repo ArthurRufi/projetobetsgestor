@@ -3,17 +3,50 @@ from banca import Banca
 from tratamentodeinformacoe import Informacoes
 
 
+'''
+ORDEM DE CRIAÇÃO DO MAIN
+
+Inicializar a classe Informacoes
+    Inicializar a classe Banca
+        Organizar todas as infors da Banca
+            Inicializar bando de dados
+                selecionar clube
+                    se pesqusar clubes Inicializar classse Clubes
+'''
 
 
 
 
 
+
+
+
+
+
+
+
+
+'''
+
+
+exentradas = ["2", "12", "9", "6"]
+exsaidas = ["12", "10", "8",]
+
+
+x = Banca(0, 0, 0, exentradas, exsaidas)
+
+x.entradas()
 
 listadevitorias = [5, 4, 3, 2, 1]
 #nomedoclube = input("Insira o nome do clube ")
 lsitadederrotas = [3, 2, 1]
 listadesfalques = ["pedro", "gabirel"]
 infoadversarios = ["contrataram o batman"]
+
+
+
+!!!!!!! Nessa parte é um exemplo de uso da entrada e tratamento de usuario!!!!!!!!!
+
 
 
 inputnome = input("Insira seu nome ")
@@ -28,22 +61,8 @@ else:
 
 
 
+
 #clube  = Clube(nomedoclube, "333")
 
 #clube.nmvitorias(listadevitorias)
-
-'''nome = informações_de_usuario()
-tratamento_de_entrada(nome)
-'''
-
-'''
-if __name__ == "__main__":
-   
-    saldo = (1500)
-    depositos = ("lista de destino")
-    saques = ("lista de saques")
-
-    infbanca = Banca(saldo, depositos, saques)
-
-    print (infbanca._saldo)
 '''

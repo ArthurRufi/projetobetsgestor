@@ -75,5 +75,13 @@ Commits:
 
             p1.3.1 {Realizado correções para uso na classe informacoes, nas funções tratamento_de_entrada e informações_de_usuario, Realizado alterações na main para 
                     usar as Funcionalidades, Renomeado o modulo info.py para tratamentodeinformacoe.py}
+
+            p1.3.2{O modulo banca.py agora tem mais Funcionalidades, a classe Banca agora conta com os construtores mais organizados e os metodos agora todos retornam Funcionalidades
+            os metodos entradas e saidas agora entregam o que é desejado de ser entregue ao usuario, tratam as entradas em compreensions e assim com retornos_do_mes e perdas_do_mes
+                O modulo clubes.py foi iniciado as melhorias sobre o funcionamento da classe Clube saindo assim da etapa 0 para a adição de funcionalidades do metodo vitorias
+            nesse Commit.
+                Ao mexer no main favor comentar alterações e seguir organograma descrito no primeiro comentario do main
+            }
+        
         }
     }
