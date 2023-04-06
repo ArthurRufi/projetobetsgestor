@@ -86,5 +86,15 @@ Commits:
             p1.3.3 {
                 Concluido o prototipo p1 em que o sistema já está pronto para informacoes iniciais.
             }
+        
+        p2 {
+            No prototipo 2 já são armazenados as informacoes dos clubes desde o dia inicial de uso do software assim como reds e greens nos a partir do inicio da conta no software
+            o tratamento de informações agora já serve para usual sendo chamada para uso sobre todas informações de entrada de usuario.
+            NOTA IMPORTANTE DE DESENVOLVIMENTO (Apagar quando realizar):
+                Criar classes filhas para a classe banca para usar reds e greens.
+        }
+            p2.1{
+                Criado as classes reds e greens, arquivos .txt para arquivar informações.
+            }
         }
     }
