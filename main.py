@@ -3,6 +3,20 @@ from banca import Banca
 from tratamentodeinformacoe import Informacoes
 
 
+
+nomeusuario = Informacoes("arthur", "banana321")
+
+nomeusuario.informações_de_usuario()
+nomeusuario.tratamento_de_entrada()
+if nomeusuario.tratamento_de_entrada() == False:
+    print("ERROR")
+elif nomeusuario.tratamento_de_entrada() == True:
+    print("Acesso Concluido!")
+else:
+    print("Erro desconhecido 10 FAVOR CONTATAR SUPORTE")
+
+
+
 '''
 ORDEM DE CRIAÇÃO DO MAIN
 
@@ -14,24 +28,9 @@ Inicializar a classe Informacoes
                     se pesqusar clubes Inicializar classse Clubes
 '''
 
-
-
-
-
-
-
-
-
-
-
-
-
 '''
-
-
 exentradas = ["2", "12", "9", "6"]
 exsaidas = ["12", "10", "8",]
-
 
 x = Banca(0, 0, 0, exentradas, exsaidas)
 
@@ -44,9 +43,7 @@ listadesfalques = ["pedro", "gabirel"]
 infoadversarios = ["contrataram o batman"]
 
 
-
 !!!!!!! Nessa parte é um exemplo de uso da entrada e tratamento de usuario!!!!!!!!!
-
 
 
 inputnome = input("Insira seu nome ")
@@ -58,9 +55,6 @@ if not permission:
 else:
     lista = nome.informações_de_usuario(inputnome, inputsenha)
     print("Informações de usuário:", lista)
-
-
-
 
 #clube  = Clube(nomedoclube, "333")
 

@@ -61,7 +61,8 @@ Commits:
     Erro do titulo Commit final d80b96b ("Funcionalidades descritas p1.22" /// p1.22 não existe na data ERRO DE DIGITAÇÃO)
    
     p1{
-        Renomeadas todas as funções, função nmvitorias retornado numero de vitorias
+        Organização das classes e suas funcionalidades iniciais de tratar entradas, entregar funcionalidades de banca de gerenciamento basico, a classe clubes entregar os metodos
+        de uso basico para informacoes dos clubes.
 
         p1.1{
             Descrições adicionadas da p1 da documentação
@@ -82,6 +83,8 @@ Commits:
             nesse Commit.
                 Ao mexer no main favor comentar alterações e seguir organograma descrito no primeiro comentario do main
             }
-        
+            p1.3.3 {
+                Concluido o prototipo p1 em que o sistema já está pronto para informacoes iniciais.
+            }
         }
     }
