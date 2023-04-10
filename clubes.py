@@ -9,12 +9,15 @@ class Clube:
         self._vitorias = vitorias
         self._derrotas = derrotas
         self._adverarios = adversarios
-
+        
 
     def nmvitorias(self):
-       
-       vitorias = self._vitorias
-       print (vitorias)
+       '''
+       adicionar pesquisa para 
+       '''
+       vitorias = 12
+       self._vitorias = vitorias
+       print (self._vitorias)
        
 
     def nmderrotas(self):

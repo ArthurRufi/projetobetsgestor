@@ -4,6 +4,11 @@ from tratamentodeinformacoe import Informacoes
 
 
 
+
+c = Clube("In", "001", 5, 2, "tuba")
+c.nmvitorias()
+
+'''
 nomeusuario = Informacoes("arthur", "banana321")
 
 nomeusuario.informações_de_usuario()
@@ -17,7 +22,7 @@ else:
 
 
 
-'''
+
 ORDEM DE CRIAÇÃO DO MAIN
 
 Inicializar a classe Informacoes
